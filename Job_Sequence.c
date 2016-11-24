@@ -50,3 +50,10 @@ int main()
     scanf("%d",&p[i]);
     job(d,p,n);
 }
+
+/*inputs::
+no. of jobs=4
+deadline: 2 1 2 1
+profit:100 10 15 27*/
+/*output::
+Max Profit=127*/
