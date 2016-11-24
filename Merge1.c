@@ -69,7 +69,7 @@ void mergesort(int a[],int low, int mid, int high)
         }
     }
     else{
-        for(k=1;k<=mid;k++)
+        for(k=l;k<=mid;k++)
         {
             temp[i]=a[k];
             i=i+1;
