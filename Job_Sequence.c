@@ -21,7 +21,7 @@ void job(int d[],int p[],int n)
                 m=p[i]+p[j];
                 if(d[i]>d[j])
                 {
-                    printf("k=%d\ti=%d\tj=%d\ti=%d\tm=%d\n",k,i,j,j,i,m);
+                    printf("k=%d\ti=%d\tj=%d\tj=%d\ti=%d\tm=%d\n",k,i,j,j,i,m);
                 }
             }
             else
